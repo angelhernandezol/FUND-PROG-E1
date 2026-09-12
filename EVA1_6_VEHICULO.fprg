@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA1_6_VEHICULO"/>
+        <attribute name="authors" value="bisonte"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-11 06:47:03 p. m."/>
+        <attribute name="created" value="Ymlzb250ZTtERVNLVE9QLVRTNE1SNzg7MjAyNi0wOS0xMTswNjoxNjo0OCBwLiBtLjszMzA2"/>
+        <attribute name="edited" value="Ymlzb250ZTtERVNLVE9QLVRTNE1SNzg7MjAyNi0wOS0xMTswNjo0NzowMyBwLiBtLjsyOzM0MTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="marca" type="String" array="False" size=""/>
+            <declare name="modelo" type="String" array="False" size=""/>
+            <declare name="a&#241;o" type="Integer" array="False" size=""/>
+            <declare name="color" type="String" array="False" size=""/>
+            <declare name="km" type="Real" array="False" size=""/>
+            <declare name="precio" type="Real" array="False" size=""/>
+            <output expression="&quot;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;INGRESE LOS DATOS&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&quot;" newline="True"/>
+            <output expression="&quot;Capture marca: &quot;" newline="False"/>
+            <input variable="marca"/>
+            <output expression="&quot;Capture modelo: &quot;" newline="True"/>
+            <input variable="modelo"/>
+            <output expression="&quot;Capture a&#241;o: &quot;" newline="True"/>
+            <input variable="a&#241;o"/>
+            <output expression="&quot;Capture color: &quot;" newline="True"/>
+            <input variable="color"/>
+            <output expression="&quot;Capture kilometaje: &quot;" newline="True"/>
+            <input variable="km"/>
+            <output expression="&quot;Capture precio: &quot;" newline="True"/>
+            <input variable="precio"/>
+            <output expression="&quot;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;DATOS CAPTURADOS&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&quot;" newline="True"/>
+            <output expression="&quot;Marca: &quot;" newline="False"/>
+            <output expression="marca" newline="True"/>
+            <output expression="&quot;Modelo: &quot;" newline="False"/>
+            <output expression="modelo" newline="True"/>
+            <output expression="&quot;A&#241;o: &quot;" newline="False"/>
+            <output expression="a&#241;o" newline="True"/>
+            <output expression="&quot;Color: &quot;" newline="False"/>
+            <output expression="color" newline="True"/>
+            <output expression="&quot;Kilometraje: &quot;" newline="False"/>
+            <output expression="km" newline="False"/>
+            <output expression="&quot; Km&quot;" newline="True"/>
+            <output expression="&quot;Precio: $ &quot;" newline="False"/>
+            <output expression="precio" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
