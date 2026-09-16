@@ -30,10 +30,10 @@ public class EVA1_10_TEMPERATURA {
         
             temp = capture.nextDouble();
             
-            far = (temp * 1.8) + 32; //Grados farenheit
+            far = (temp * 1.8) + 32; //Grados Fahrenheit
             kelv = temp + 273.15;
             
-           System.out.println(temp + " Grados Celsius = " + far + " Farenheit");
+           System.out.println(temp + " Grados Celsius = " + far + " Fahrenheit");
            System.out.println(temp + " Grados Celsius = " + kelv + " Kelvin");
 
           
