@@ -22,7 +22,7 @@ public class EVA1_12_TEMPERATURA_3 {
          
         Scanner capture = new Scanner(System.in);
         
-        System.out.println("    Ingrese la temperatura en grados Fahrenheit: ");
+        System.out.println("    Ingrese la temperatura en grados Kelvin: ");
          temp = capture.nextDouble();
          
          
